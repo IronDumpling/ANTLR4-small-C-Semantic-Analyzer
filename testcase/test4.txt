@@ -1,0 +1,17 @@
+#include "scio.h"
+
+int main() {
+
+   int x;
+   bool t;
+
+   // Operand mismatch
+   x + t;
+   t < x;
+   t == true;
+   t = false;
+   t = 5;
+
+   return 0; 
+}
+

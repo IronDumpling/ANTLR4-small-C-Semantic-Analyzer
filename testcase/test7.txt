@@ -1,0 +1,15 @@
+bool foo(int a);
+
+int main() {
+   bool a;
+   int b;
+
+   a + b;
+   !a;
+
+   a = foo(a);      
+   return a;
+   
+   -a;
+   !b;
+}

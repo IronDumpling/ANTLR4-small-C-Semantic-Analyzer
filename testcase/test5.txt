@@ -1,0 +1,13 @@
+#include "scio.h"
+
+int main() {
+   int b[-10]; // Invalid array decl
+   int x;
+   int k;
+
+   k = b; // Invalid use of b
+   x = k[4]; // Invalid use of k
+
+   return 0; 
+}
+

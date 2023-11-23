@@ -1,0 +1,53 @@
+#include "scio.h"
+int x;
+int x; // re-definition
+
+int fcn1();
+bool fcn1();     // mismatched 
+int fcn1(int x); // mismatched
+
+void fcn2();
+
+int fcn1(){
+
+}
+
+bool fcn1(){
+
+}
+
+int fcn1(int a){
+
+}
+
+int fcn1(int a, bool b){
+   while(b){
+      return b;
+   }
+}
+
+void foo(){
+   int a;
+   if(true){
+      return a; 
+   } 
+}
+
+int main() {
+   bool w;
+   bool w; // re-definition
+
+   int a[10];
+   int a; // re-definition
+
+   int b;
+   b = fcn1();
+   b = fcn1(b);
+   b = fcn1(b, w);
+   w = fcn1();
+
+   fcn2();
+
+   return 0; 
+}
+

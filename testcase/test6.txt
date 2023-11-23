@@ -1,0 +1,37 @@
+#include "scio.h"
+int x;
+
+int main() {
+   int t;
+   int b[10];
+
+   x + t;
+   (x == t);
+
+   if((x+t) >= (t-x)){
+      if((x != t)){
+         bool r;
+         bool b;
+         r = false;
+         while((r)){
+            t = t + 1;
+         }
+         while(x){
+            bool a;
+            int b[10];
+         }
+         if(x+t){
+            a;
+            b[0];
+         }
+         if(d){
+            while(b){
+
+            }
+         }
+      }
+   }
+
+   
+   return;
+}

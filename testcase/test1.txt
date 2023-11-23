@@ -1,0 +1,18 @@
+#include "scio.h"
+int x;
+
+int main() {
+   int y;
+   int z;
+
+   if (x) return -1; // If condition
+   if (y < z) y = 0;
+   
+   // while conditions
+   while (x) {}
+   while (true) {}
+   while (1) {}
+   while (y!=z) {}
+
+   return 0; // return mismatch
+}

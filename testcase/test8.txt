@@ -1,0 +1,33 @@
+bool foo(int a);
+
+int su(int a[]);
+
+void func(bool a){
+
+}
+
+bool foo(int b){
+   return true;
+}
+
+int main() {
+   bool a;
+   int b[10];
+   int c;
+   if(!a){
+
+   }  
+   if(-b){
+      
+   }
+
+   foo(a);
+   func(b);
+
+   func((a && a));
+   foo(b[1]+b[0]);
+
+   su(c);
+
+   return a;
+}

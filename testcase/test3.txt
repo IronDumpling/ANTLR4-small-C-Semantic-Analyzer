@@ -1,0 +1,19 @@
+#include "scio.h"
+int main() {
+   int y;
+   int z;
+
+   x = 3; // Undefined variable
+   w = c; // Undefined variable
+
+   fcn2(); // Undefined function
+
+   writeInt(y);
+
+   z = readBool();
+
+   newLine();
+
+   return 0; 
+}
+
